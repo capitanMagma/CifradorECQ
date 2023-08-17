@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cifrador y Descifrador</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <h1>Cifrador y Descifrador de Mensajes</h1>
+    
+    
+    <div class="container">
+    
+        <div class="section">
+            <h2>Cifrar Mensaje</h2>
+            <label for="inputOriginalText">Mensaje Original:</label>
+            <input type="text" id="inputOriginalText">
+            <button id="cipherButton">Cifrar</button>
+        </div>
+    
+        <div class="section">
+            <h2>Descifrar Mensaje</h2>
+            <label for="inputEncryptedText">Mensaje Cifrado:</label>
+            <input type="text" id="inputEncryptedText">
+            <button id="decipherButton">Descifrar</button>
+        </div>
+    
+    </div>
+    
+    <div class="container">
+    
+        <div class="section">
+            <label for="result">Resultado:</label>
+            <textarea id="result" readonly></textarea>
+        </div>
+    
+    </div>
+    
+    
+    <script src="actions.js"></script>
+    
+</body>
+</html>
